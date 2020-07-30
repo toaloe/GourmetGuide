@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/home/Home.vue'
+import Home from '../views/Home.vue'
+import HomeMain from '../views/HomeMain.vue'
 
 Vue.use(VueRouter)
 
@@ -8,8 +9,16 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Home',
-    component: Home
-  },
+    component: Home,
+    redirect:'/HomeMain',
+    children:[
+      {
+        path:'/HomeMain',
+        name:'HomeMain',
+        component: HomeMain
+      }
+    ]
+  }
   // {
   //   path: '/about',
   //   name: 'About',

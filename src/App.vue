@@ -1,20 +1,20 @@
 <template>
-  <div class="home">
-    <nav-header></nav-header>
+  <div class="app">
+    <!-- <nav-header></nav-header> -->
     <router-view></router-view>
-    <nav-footer></nav-footer>
+    <!-- <nav-footer></nav-footer> -->
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import navHeader from '@/components/navHeader';
-import navFooter from '@/components/navFooter';
+// import navHeader from '@/components/navHeader';
+// import navFooter from '@/components/navFooter';
 export default {
-  name: 'Home',
+  name: 'App',
   components: {
-    navHeader,
-    navFooter
+    // navHeader,
+    // navFooter
   }
 }
 </script>

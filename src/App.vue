@@ -20,4 +20,5 @@ export default {
 </script>
 <style lang="scss">
 @import './assets/scss/reset.scss';
+// @import './assets/scss/iconfont.scss';
 </style>

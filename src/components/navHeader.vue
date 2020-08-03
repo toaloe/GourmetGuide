@@ -76,11 +76,11 @@ style <style lang="scss" scoped>
     position: fixed;
     left: 1410px;
     top: 50px;
-    border: 1px solid #ccc;
+    // border: 1px solid #ccc;
+    z-index: 99;
     img{
       width: 200px;
       height: 200px;
-      margin: 3px;
     }
   }
   // .none{

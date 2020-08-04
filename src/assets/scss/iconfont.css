@@ -14,6 +14,130 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-cai:before {
+  content: "\e646";
+}
+
+.icon-segao:before {
+  content: "\e73d";
+}
+
+.icon-chuancai:before {
+  content: "\e7c1";
+}
+
+.icon-shiwumiantiao:before {
+  content: "\e62c";
+}
+
+.icon-jiaozi:before {
+  content: "\e612";
+}
+
+.icon-shiwu-canpan:before {
+  content: "\e607";
+}
+
+.icon-baozi:before {
+  content: "\e623";
+}
+
+.icon-shiwu-:before {
+  content: "\ebd8";
+}
+
+.icon-shiwu-1:before {
+  content: "\ebe2";
+}
+
+.icon-shiwu-2:before {
+  content: "\ebe3";
+}
+
+.icon-shiwu-3:before {
+  content: "\ebe5";
+}
+
+.icon-shiwu-4:before {
+  content: "\ebe8";
+}
+
+.icon-shiwu-5:before {
+  content: "\ebea";
+}
+
+.icon-shiwu-6:before {
+  content: "\ebed";
+}
+
+.icon-shiwu-7:before {
+  content: "\ebf0";
+}
+
+.icon-shiwu-8:before {
+  content: "\ebfc";
+}
+
+.icon-shiwu-9:before {
+  content: "\ebfe";
+}
+
+.icon-shiwu-10:before {
+  content: "\ebff";
+}
+
+.icon-shiwu-11:before {
+  content: "\ec0c";
+}
+
+.icon-shiwu-12:before {
+  content: "\ec0d";
+}
+
+.icon-shiwu-13:before {
+  content: "\ec24";
+}
+
+.icon-cai1:before {
+  content: "\e601";
+}
+
+.icon-shiwu:before {
+  content: "\e621";
+}
+
+.icon-chuanxiangcai:before {
+  content: "\e610";
+}
+
+.icon-shiwu1:before {
+  content: "\e608";
+}
+
+.icon-sw-xc:before {
+  content: "\e614";
+}
+
+.icon-beijing:before {
+  content: "\e604";
+}
+
+.icon-shiwu2:before {
+  content: "\e72c";
+}
+
+.icon-shiwu-roudanlei:before {
+  content: "\e67c";
+}
+
+.icon-shiwu-shucailei:before {
+  content: "\e67d";
+}
+
+.icon-shiwu3:before {
+  content: "\e6db";
+}
+
 .icon-search:before {
   content: "\e600";
 }

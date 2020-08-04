@@ -4,7 +4,6 @@
       <div class="searchContainer">
         <input type="text" placeholder="请输入关键字">
         <a href="javaScript:;"><i class="icon-search iconfont"></i></a>
-        
       </div>
     </div>
     <div class="container">
@@ -30,6 +29,105 @@
         <div class="swiper-button-next" slot="button-next"></div>
       </swiper>
       
+    </div>
+    <div class="showBar">
+      <i class="iconfont icon-cai"></i>
+      <i class="iconfont icon-segao"></i>
+      <i class="iconfont icon-chuancai"></i>
+      <i class="iconfont icon-shiwumiantiao"></i>
+      <i class="iconfont icon-jiaozi"></i>
+      <i class="iconfont icon-shiwu-canpan"></i>
+      <i class="iconfont icon-baozi"></i>
+      <i class="iconfont icon-shiwu-"></i>
+      <i class="iconfont icon-shiwu-1"></i>
+      <i class="iconfont icon-shiwu-2"></i>
+      <i class="iconfont icon-shiwu-3"></i>
+      <i class="iconfont icon-shiwu-4"></i>
+      <i class="iconfont icon-shiwu-5"></i>
+      <i class="iconfont icon-shiwu-6"></i>
+      <i class="iconfont icon-shiwu-7"></i>
+      <i class="iconfont icon-shiwu-8"></i>
+      <i class="iconfont icon-shiwu-9"></i>
+      <i class="iconfont icon-shiwu-10"></i>
+      <i class="iconfont icon-shiwu-11"></i>
+      <i class="iconfont icon-shiwu-12"></i>
+      <i class="iconfont icon-shiwu-13"></i>
+      <i class="iconfont icon-cai1"></i>
+      <i class="iconfont icon-shiwu"></i>
+      <i class="iconfont icon-chuanxiangcai"></i>
+      <i class="iconfont icon-shiwu1"></i>
+      <i class="iconfont icon-sw-xc"></i>
+      <i class="iconfont icon-beijing"></i>
+      <i class="iconfont icon-shiwu2"></i>
+      <i class="iconfont icon-shiwu-roudanlei"></i>
+      <i class="iconfont icon-shiwu-shucailei"></i>
+      <i class="iconfont icon-shiwu3"></i>
+      <i class="iconfont icon-cai"></i>
+      <i class="iconfont icon-segao"></i>
+      <i class="iconfont icon-chuancai"></i>
+      <i class="iconfont icon-shiwumiantiao"></i>
+      <i class="iconfont icon-jiaozi"></i>
+      <i class="iconfont icon-shiwu-canpan"></i>
+      <i class="iconfont icon-baozi"></i>
+      <i class="iconfont icon-shiwu-"></i>
+      <i class="iconfont icon-shiwu-1"></i>
+      <i class="iconfont icon-shiwu-2"></i>
+      <i class="iconfont icon-shiwu-3"></i>
+      <i class="iconfont icon-shiwu-4"></i>
+      <i class="iconfont icon-shiwu-5"></i>
+      <i class="iconfont icon-shiwu-6"></i>
+      <i class="iconfont icon-shiwu-7"></i>
+      <i class="iconfont icon-shiwu-8"></i>
+      <i class="iconfont icon-shiwu-9"></i>
+      <i class="iconfont icon-shiwu-10"></i>
+      <i class="iconfont icon-shiwu-11"></i>
+      <i class="iconfont icon-shiwu-12"></i>
+      <i class="iconfont icon-shiwu-13"></i>
+      <i class="iconfont icon-cai1"></i>
+      <i class="iconfont icon-shiwu"></i>
+      <i class="iconfont icon-chuanxiangcai"></i>
+      <i class="iconfont icon-shiwu1"></i>
+      <i class="iconfont icon-sw-xc"></i>
+      <i class="iconfont icon-beijing"></i>
+      <i class="iconfont icon-shiwu2"></i>
+      <i class="iconfont icon-shiwu-roudanlei"></i>
+      <i class="iconfont icon-shiwu-shucailei"></i>
+      <i class="iconfont icon-shiwu3"></i>
+      <i class="iconfont icon-cai"></i>
+      <i class="iconfont icon-segao"></i>
+      <i class="iconfont icon-chuancai"></i>
+      <i class="iconfont icon-shiwumiantiao"></i>
+      <i class="iconfont icon-jiaozi"></i>
+      <i class="iconfont icon-shiwu-canpan"></i>
+      <i class="iconfont icon-baozi"></i>
+      <i class="iconfont icon-shiwu-"></i>
+      <i class="iconfont icon-shiwu-1"></i>
+      <i class="iconfont icon-shiwu-2"></i>
+      <i class="iconfont icon-shiwu-3"></i>
+      <i class="iconfont icon-shiwu-4"></i>
+      <i class="iconfont icon-shiwu-5"></i>
+      <i class="iconfont icon-shiwu-6"></i>
+      <i class="iconfont icon-shiwu-7"></i>
+      <i class="iconfont icon-shiwu-8"></i>
+      <i class="iconfont icon-shiwu-9"></i>
+      <i class="iconfont icon-shiwu-10"></i>
+      <i class="iconfont icon-shiwu-11"></i>
+      <i class="iconfont icon-shiwu-12"></i>
+      <i class="iconfont icon-shiwu-13"></i>
+      <i class="iconfont icon-cai1"></i>
+      <i class="iconfont icon-shiwu"></i>
+      <i class="iconfont icon-chuanxiangcai"></i>
+      <i class="iconfont icon-shiwu1"></i>
+      <i class="iconfont icon-sw-xc"></i>
+      <i class="iconfont icon-beijing"></i>
+      <i class="iconfont icon-shiwu2"></i>
+      <i class="iconfont icon-shiwu-roudanlei"></i>
+      <i class="iconfont icon-shiwu-shucailei"></i>
+      <i class="iconfont icon-shiwu3"></i>
+      <i class="iconfont icon-cai"></i>
+    </div>
+    <div class="homeMain">
+
     </div>
   </div>
 </template>
@@ -112,16 +210,23 @@ export default {
   .container{
     width: 1900px;
     .swiper-container{
-    height: 300px;
-    .swiper-button-prev .swiper-button-next{
-      color: chocolate;
-    }
-    img{
-      width: 500px;
       height: 300px;
+      .swiper-button-prev .swiper-button-next{
+        color: chocolate;
+      }
+      img{
+        width: 500px;
+        height: 300px;
+      }
     }
   }
+  .showBar{
+    .iconfont{
+      font-size: 20px;
+    }
   }
-  
+  .homeMain{
+    height: 500px;
+  }
 }
 </style>

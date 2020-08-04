@@ -52,8 +52,9 @@ export default {
     justify-content: center;
     align-items: center;
     margin: 10px;
-    .icon-icon{
+    .iconfont{
       font-size: 40px;
+      color: yellow;
     }
     span{
       color: $colorA;

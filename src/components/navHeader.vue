@@ -41,10 +41,10 @@ export default {
 style <style lang="scss" scoped>
 .header{
   .navTop{
-    height: 50px;
-    line-height: 50px;
+    height: 60px;
+    line-height: 60px;
     background-color: rgb(29, 29, 31);
-    font-size: 15px;
+    font-size: 16px;
     .container{
       display: flex;
       justify-content: center;

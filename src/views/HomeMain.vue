@@ -2,8 +2,9 @@
   <div class="homeMain">
     <div class="homeTop">
       <div class="searchContainer">
-        <input type="text">
-        <a href="javaScript:;"></a>
+        <input type="text" placeholder="请输入关键字">
+        <a href="javaScript:;"><i class="icon-search iconfont"></i></a>
+        
       </div>
     </div>
     <div class="container">
@@ -85,13 +86,26 @@ export default {
       height: 40px;
       line-height: 40px;
       border: 1px solid $colorI;
-      margin: 13px 20px;
+      background-color: #ffffff;
+      margin: 13px 75px;
       input {
-        width: 254px;
+        width: 240px;
         height: 40px;
         outline: none;  
         border: none;
+        font-size: 16px;
         border-right: 1px solid $colorI;
+        margin-left: 10px;
+      }
+      a{
+        float: right;
+        height: 40px;
+        line-height: 40px;
+        margin: 2px 7px;
+      }
+      .iconfont{
+        margin: 0 auto;
+        font-size: 30px;
       }
     }
   }

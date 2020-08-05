@@ -127,14 +127,24 @@
       <i class="iconfont icon-cai"></i>
     </div>
     <div class="homeMain">
-
+        <div class="left">
+          <h1>{{this.test}}</h1>
+        </div>
+        <div class="center">
+          <div class="menu"  v-for="(item, ind) in menuLists" :key="ind" @click="showDetail(item.value)">
+            <div class="menuTitle">{{item.name}}</div>
+            <span>{{item.value}}</span>
+          </div>
+        </div>
+        <div class="right">
+          <h1>{{this.test}}</h1>
+        </div>
     </div>
   </div>
 </template>
 
 <script>
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-// import 'swiper/swiper-bundle.css'
 import 'swiper/css/swiper.css'
 export default {
   name:'HomeMain',
@@ -166,6 +176,47 @@ export default {
           prevEl: '.swiper-button-prev',
         }
       },
+      menuLists:[
+        {
+          name:'鲁',
+          value:'鲁菜'
+        },
+        {
+          name:'川',
+          value:'川菜'
+        },
+        {
+          name:'粤',
+          value:'粤菜'
+        },
+        {
+          name:'苏',
+          value:'苏菜'
+        },
+        {
+          name:'浙',
+          value:'浙菜'
+        },
+        {
+          name:'闽',
+          value:'闽菜'
+        },
+        {
+          name:'鲁',
+          value:'湘菜'
+        },
+        {
+          name:'徽',
+          value:'徽菜'
+        }
+      ],
+      test:''
+    }
+  },
+  methods:{
+    showDetail(val){
+      console.log(val,"test");
+      this.test=val;
     }
   }
 }
@@ -226,7 +277,64 @@ export default {
     }
   }
   .homeMain{
-    height: 500px;
+    height: 1000px;
+    .left{
+      float: left;
+      width: 30%;
+      height: 1000px;
+      background-color: pink;
+    }
+    .center{
+      float: left;
+      width: 10%;
+      height: 1000px;
+      background-color: $colorH;
+      .menu{
+        height: 100px;
+        border-bottom: 1px solid $colorA;
+        .menuTitle{
+          display: inline-block;
+          width: 60px;
+          height: 60px;
+          line-height: 60px;
+          text-align: center;
+          color: $colorJ;
+          font-size: 40px;
+          font-family: Xingkai SC;
+          font-weight: bold;
+          border: 3px solid $colorI;
+          border-radius: 50%;
+          margin: 20px 10px;
+        }
+        span{
+          color: $colorA;
+          font-size: 35px;
+          margin-left: 10px;
+        }
+      }
+      .menu:hover {
+        cursor: pointer;
+        background-color: $colorJ;
+      }
+      .menu:hover .menuTitle{
+        color: rgb(27, 95, 27);
+        font-size: 35px;
+        font-weight: normal;
+      }
+      .menu:hover span{
+        color: $colorH;
+        font-size: 45px;
+        font-family: YouYuan;
+        margin-left: 4px;
+        font-weight: bold;
+      }
+    }
+    .right{
+      width: 60%;
+      height: 1000px;
+      float: left;
+      background-color: blue;
+    }
   }
 }
 </style>

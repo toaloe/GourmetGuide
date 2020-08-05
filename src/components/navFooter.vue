@@ -44,7 +44,7 @@ export default {
 <style lang="scss" scoped>
 @import '@/assets/scss/basic.scss';
 .footer{
-  border-top: 3px solid rgb(246, 123, 69);
+  border-top: 3px solid $colorJ;
   background-color: $colorH;
   height: 200px;
   .logo{

@@ -188,7 +188,20 @@
           </div>
         </div>
         <div class="right">
-          <h1>{{this.test}}</h1>
+          <h2>{{this.test}}</h2>
+          <div class="wrapper">
+            <div class="listBox">
+              <div class="list">
+                <div class="item">
+                  <span>菜名</span>
+                  <div class="itemImg">
+                    <img src="" alt="">
+                  </div>
+                  <div class="itemInfo"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
   </div>
@@ -253,7 +266,7 @@ export default {
           value:'闽菜'
         },
         {
-          name:'鲁',
+          name:'湘',
           value:'湘菜'
         },
         {
